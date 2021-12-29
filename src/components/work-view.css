@@ -1,0 +1,159 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800;900&display=swap");
+
+  body {
+    background-color: #EAEAEA;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+    width: 100%;
+    margin: 0;
+  }
+  
+  .container {
+    text-align: center;
+  }
+  
+  h1 {
+    font-size: 40px;
+    font-weight: 900;
+  }
+  
+.title {
+    color: white;
+}
+
+.descr1 {
+    font-size: 12pt;
+    color: white;
+  }
+
+.descr2 {
+    color: black
+}
+
+  .button_work {
+    background-color: rgb(49, 49, 49);
+    font-weight: 600;
+    font-size: 14px;
+    color: white;
+    padding: 15px;
+    border: black solid 2px;
+    border-radius: 30px;
+    width: 200px;
+    -webkit-transition-duration: 1s;
+    -o-transition-duration: 1s;
+    transition-duration: 1s;
+    -webkit-transition-property: opacity;
+    -o-transition-property: opacity;
+    transition-property: opacity;
+    display: inline-block;
+    margin-top: 90px;
+    margin-bottom: 110px;
+    text-align: center;
+    text-decoration: none;
+    justify-content: center;
+  }
+  
+  .button_2 {
+    background-color: white;
+    font-weight: 600;
+    font-size: 12px;
+    color: rgb(59, 59, 59);
+    padding: 5px;
+    border: black solid 2px;
+    border-radius: 30px;
+    width: 150px;
+    -webkit-transition-duration: 1s;
+    -o-transition-duration: 1s;
+    transition-duration: 1s;
+    -webkit-transition-property: opacity;
+    -o-transition-property: opacity;
+    transition-property: opacity;
+    display: inline-block;
+    text-decoration: none;
+  }
+
+  .button_3 {
+      font-size: 10px;
+      align-items: baseline;  
+  }
+  
+  .grid {
+    display: grid;
+    text-align: center;
+    grid-template-columns: 300px 300px;
+    grid-template-rows: 300px 300px 300px 300px;
+    justify-content: center;
+    row-gap: 150px;
+    column-gap: 120px;
+  }
+
+  .grid_item1 {
+    height: 400px;
+    padding: 20px;
+    margin: 10px;
+    border-radius: 10px;
+    -webkit-box-shadow: 6px 3px 19px 0px rgba(0, 0, 0, 0);
+    box-shadow: 6px 3px 19px 0px rgba(0, 0, 0, 0);
+    border: 1px solid black;
+    background-color: #42b300;
+    background-image: url(../files/Green\ Box\ logo.png);
+  }
+
+  .grid_item2 {
+    height: 400px;
+    padding: 20px;
+    margin: 10px;
+    border-radius: 10px;
+    -webkit-box-shadow: 6px 3px 19px 0px rgba(0, 0, 0, 0);
+    box-shadow: 6px 3px 19px 0px rgba(0, 0, 0, 0);
+    border: 1px solid black;
+    background-image: url(../files/Join\ For\ Free-02.jpg);
+    background-size: 600px;
+  }
+
+  .grid_item3 {
+    height: 400px;
+    padding: 20px;
+    margin: 10px;
+    border-radius: 10px;
+    -webkit-box-shadow: 6px 3px 19px 0px rgba(0, 0, 0, 0);
+    box-shadow: 6px 3px 19px 0px rgba(0, 0, 0, 0);
+    border: 1px solid black;
+    background-color: #eb7100;
+    background-image: url(../files/Politiself_logo.png);
+  }
+
+  .grid_item4 {
+    height: 400px;
+    padding: 20px;
+    margin: 10px;
+    border-radius: 10px;
+    -webkit-box-shadow: 6px 3px 19px 0px rgba(0, 0, 0, 0);
+    box-shadow: 6px 3px 19px 0px rgba(0, 0, 0, 0);
+    border: 1px solid black;
+    background-color: #479aff;
+    background-image: url(../files/CF_Casestudy_1.png);
+    background-size: 300px;
+  }
+   
+  
+  @media all and (max-width: 750px) {
+  
+    h1 {
+      font-size: 22px;
+    }
+  
+    .button {
+      font-size: 10px;
+      width: 140px;
+      margin-top: 10px;
+      position: relative;
+    }
+  
+    .grid {
+      display: grid;
+      text-align: center;
+      grid-template-columns: 300px;
+      grid-template-rows: 300px 300px 300px 300px;
+    }
+}
