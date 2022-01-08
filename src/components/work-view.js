@@ -52,38 +52,6 @@ class WorkView extends React.Component {
                             View code on GitHub
                         </a>
                     </div>
-                    <div class="grid__item">
-                        <h2>Mobile web app</h2>
-                        <p>
-                            Within this project, I was responsible for the frontend. It’s written in React.js. Additionally, I've
-                            created the HTML and CSS templates.
-                        </p>
-                        <a href="#" class="button_2">See project on GitHub</a>
-                    </div>
-                    <div class="grid__item">
-                        <h2>Mobile web app</h2>
-                        <p>
-                            Within this project, I was responsible for the frontend. It’s written in React.js. Additionally, I've
-                            created the HTML and CSS templates.
-                        </p>
-                        <a href="#" class="button_2">See project on GitHub</a>
-                    </div>
-                    <div class="grid__item">
-                        <h2>Mobile web app</h2>
-                        <p>
-                            Within this project, I was responsible for the frontend. It’s written in React.js. Additionally, I've
-                            created the HTML and CSS templates.
-                        </p>
-                        <a href="#" class="button_2">See project on GitHub</a>
-                    </div>
-                    <div class="grid__item">
-                        <h2>Mobile web app</h2>
-                        <p>
-                            Within this project, I was responsible for the frontend. It’s written in React.js. Additionally, I've
-                            created the HTML and CSS templates.
-                        </p>
-                        <a href="#" class="button_2">See project on GitHub</a>
-                    </div>
                 </div>
             </div>
         );

@@ -1,7 +1,6 @@
 import React from 'react';
 import github from '../files/github.svg';
 import linkedin from '../files/linkedin.svg';
-import twitter from '../files/twitter.png';
 import './footer-view.css';
 
 
@@ -13,10 +12,9 @@ class FooterView extends React.Component {
     <div>
         <footer className="page_footer">
             <p>Find me on</p>
-            <div className="socailmedia_icons">
-                <img src={github} alt="Github" />
-                <img src={linkedin} alt="Linkedin" />
-                <img src={twitter} className='twitter' alt="Twitter" />
+            <div>
+                <a href='https://github.com/ArtinCF93' target='blank'><img src={github} alt="Github" className='github'/></a>
+                <a href='https://www.linkedin.com/in/artin-azimi-54bb65132/' target='blank'><img src={linkedin} alt="Linkedin" /></a>
             </div>
     </footer>
     </div>

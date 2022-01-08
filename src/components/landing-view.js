@@ -45,7 +45,7 @@ class LandView extends React.Component {
         </div>
         <br />
         <div className="container">
-            <h1>Contact Me</h1>
+            <h1 id='contact'>Contact Me</h1>
             <hr />
             <p>Hard work is a Journey, but worth the Reward. Lets Talk!</p>
             <br /><br />

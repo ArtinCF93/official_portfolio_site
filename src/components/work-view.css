@@ -81,10 +81,10 @@
     display: grid;
     text-align: center;
     grid-template-columns: 300px 300px;
-    grid-template-rows: 300px 300px 300px 300px;
+    grid-template-rows: 300px 300px;
     justify-content: center;
     row-gap: 150px;
-    column-gap: 120px;
+    column-gap: 180px;
   }
 
   .grid_item1 {
