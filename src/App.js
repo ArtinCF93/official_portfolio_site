@@ -6,6 +6,8 @@ import NavBar from './components/nav-view';
 import LandView from './components/landing-view';
 import WorkView from './components/work-view';
 import FooterView from './components/footer-view';
+import FS19RSView from './components/fs19-view';
+import GreenBoxView from './components/greenbox-view';
 
 class App extends Component {
 
@@ -21,6 +23,12 @@ class App extends Component {
           </Route>
           <Route path='/myworks'>
             <WorkView />
+          </Route>
+          <Route path='/f19RSwork'>
+            <FS19RSView />
+          </Route>
+          <Route path='/greenbox'>
+            <GreenBoxView />
           </Route>
         </Switch>
         <FooterView />
