@@ -1,8 +1,8 @@
 import React from 'react';
-import imgRS1 from '../files/portfolio_images/RS_1.jpg'
-import imgRS2 from '../files/portfolio_images/RS_2.jpg'
-import imgRS3 from '../files/portfolio_images/RS_3.jpg'
-import imgRS4 from '../files/portfolio_images/RS_4.jpg'
+import imgRS1 from '../files/portfolio_images/rightstuff/RS_1.jpg'
+import imgRS2 from '../files/portfolio_images/rightstuff/RS_2.jpg'
+import imgRS3 from '../files/portfolio_images/rightstuff/RS_3.jpg'
+import imgRS4 from '../files/portfolio_images/rightstuff/RS_4.jpg'
 import './work-view.css'
 
 class FS19RSView extends React.Component {

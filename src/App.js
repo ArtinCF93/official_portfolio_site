@@ -7,7 +7,7 @@ import LandView from './components/landing-view';
 import WorkView from './components/work-view';
 import FooterView from './components/footer-view';
 import FS19RSView from './components/fs19-view';
-import GreenBoxView from './components/greenbox-view';
+import GreenBoxView from './components/greenbox-view_2';
 
 class App extends Component {
 
