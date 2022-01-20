@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import {BrowserRouter as Router, Route, Switch} from 'react-router-dom';
+import { SliderGreenboxData } from './components/SliderGreenboxData';
 import './App.css';
 
 import NavBar from './components/nav-view';
@@ -28,7 +29,7 @@ class App extends Component {
             <FS19RSView />
           </Route>
           <Route path='/greenbox'>
-            <GreenBoxView />
+            <GreenBoxView slides={SliderGreenboxData}/>
           </Route>
         </Switch>
         <FooterView />
