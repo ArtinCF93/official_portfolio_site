@@ -31,14 +31,14 @@ class WorkView extends React.Component {
                         <p className='descr1'>
                             A case study that highlights a UI UX project created for an app called Politiself. Politiself is a social
                             media app targeting those in communities looking to find or promote 3rd party politics.</p>
-                            <Link to='/greenbox' className="button_2">See Work</Link>
+                            <Link to='/politiself' className="button_2">See Work</Link>
                     </div>
                     <div className="grid_item4">
                         <h2>Rest API and database</h2>
                         <p className='descr'>
                         Building server-side code (REST API and database) using Node JS, Mongoose, MongoDB, request routing and Express
                         </p>
-                        <Link to='/f19RSwork' className="button_2">See Work</Link>
+                        <Link to='/restAPI' className="button_2">See Work</Link>
                         <br /><br /><br /><br /><br /><br />
                         <a href="https://github.com/ArtinCF93/movie_flix_api" className="button_3" target='_blank'>
                             View code on GitHub
