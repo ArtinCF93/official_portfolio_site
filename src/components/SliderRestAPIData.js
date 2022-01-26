@@ -38,7 +38,7 @@ export let SliderRestAPIData = [
         image: imgRAPI8
     },
     {
-        imgRAPI9
+        image: imgRAPI9
     },
     {
         image: imgRAPI10
