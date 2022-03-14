@@ -21,14 +21,15 @@ import imgRAPI13 from '../files/portfolio_images/restAPI/CF_Casestudy_1_13.jpg'
 let RestAPIView = ({slides}) => {
 
     //current state is defaulted at 0
+    //the second value is a function used to change the state of the first value
     let [currentIMG, selectedIMG] = useState(0);
     let length = slides.length;
 
     let nextSlide = () => {
 // Since the greenbox array has 12 elements, it has a length of 12.
 // length - 1 means at the last element of the array, because the last index is 11 (as first index starts at 0). So 12 -1 = 11 which is the last element in the array.
-// if the current index is = to the last index in the array; ? is used as 'then' to then instruct 'setCurrent' (as a function) to set the state of 'current' to 0.
-// else if index is not at the last index of the array, increment the index of 'current' to the next element in the array. 
+// if the current index is = to the last index in the array; ? is used as 'then' to then set the state of 'currentIMG' to 0 upon click.
+// : is used as 'else'; else if index is not at the last index of the array, increment the index of 'currentIMG' to the next element in the array. 
         selectedIMG(currentIMG === length -1 ? 0 : currentIMG + 1);
     };
 
