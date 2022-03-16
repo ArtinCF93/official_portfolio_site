@@ -96,8 +96,12 @@ class WorkView extends React.Component {
                         Similar to the React App, this app will display a list of movies, along with its details, from the database.                 
                         </p>
                         </div>
-                        <a href="https://github.com/ArtinCF93/chat-app" className="button_2" target='_blank'>
-                        Github Code 
+                        <a href="https://artincf93.github.io/myFlix-Angular-client/welcome" className="button_2" target='_blank'>
+                        Live Demo    
+                        </a>
+                        <br /><br />
+                        <a href="https://github.com/ArtinCF93/myFlix-Angular-client" className="button_3" target='_blank'>
+                            View code on GitHub
                         </a>
                     </div>
                     <div className="grid_item7">
