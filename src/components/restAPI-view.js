@@ -1,7 +1,7 @@
 import React, {useState} from 'react';
 import { SliderRestAPIData } from './SliderRestAPIData.js';
 import { FaArrowAltCircleRight, FaArrowAltCircleLeft } from 'react-icons/fa'
-import './work-view.css'
+// import './work-view.css'
 
 import imgRAPI1 from '../files/portfolio_images/restAPI/CF_Casestudy_1_1.jpg'
 import imgRAPI2 from '../files/portfolio_images/restAPI/CF_Casestudy_1_2.jpg'

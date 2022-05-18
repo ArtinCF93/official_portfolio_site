@@ -1,7 +1,7 @@
 import React from 'react';
 import imgPS from '../files/portfolio_images/AzimiArtin_CaseStudy.jpg'
 
-import './work-view.css'
+import './gdwork-view.css'
 
 let PolitiselfView = () => {
 
@@ -11,7 +11,7 @@ let PolitiselfView = () => {
                 <hr />
                 <br /><br />
                 <div className='image-container'>
-                <img src={imgPS} alt="PSscreen1" className='imgRS'/>
+                <img src={imgPS} alt="PSscreen1" className='imgPS'/>
         </div>
     </div>
     )

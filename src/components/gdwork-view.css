@@ -1,0 +1,71 @@
+.grid {
+    display: grid;
+    text-align: center;
+    grid-template-columns: auto auto;
+    grid-template-rows: auto auto;
+    row-gap: 250px;
+    column-gap: 30px;
+    margin: 30px;
+    justify-content: center;
+  }
+
+  .grid_item1 {
+    height: 600px;
+    padding: 20px;
+    margin: 10px;
+    border-radius: 20px;
+    background-color: #42b300;
+    background-image: url(../files/greenbox.jpg);
+    background-size: 700px;
+    position: relative;
+  }
+
+  .grid_item1:hover {
+    transform: scale(1.05);
+    transition: 1s;
+  }
+
+  .grid_item2 {
+    height: 600px;
+    padding: 20px;
+    margin: 10px;
+    border-radius: 20px;
+    background-color: #42b300;
+    background-image: url(../files/fitness19.jpg);
+    background-size: 700px;
+    position: relative;
+  }
+
+  .grid_item2:hover {
+    transform: scale(1.05);
+    transition: 1s;
+  }
+
+  .image-container {
+    display: inline-block;
+    text-align: center;
+    grid-template-columns: auto;
+    grid-template-rows: auto;
+    row-gap: 20px;
+    column-gap: 30px;
+    justify-content: center;
+    width: 100%;
+  }
+
+  .imgGB {
+    margin-top: 20px;
+  }
+
+  .imgRS {
+    height: 750px;
+    margin: 30px;
+  }
+
+  .imgRS2 {
+    height: 850px;
+    margin: 30px;
+  }
+
+  .imgPS {
+    width: 800px;
+  }
