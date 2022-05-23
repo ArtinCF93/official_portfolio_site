@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 import {BrowserRouter as Router, Switch, Route} from 'react-router-dom';
-import { SliderRestAPIData } from './components/SliderRestAPIData';
 import './App.css';
 
 import NavBar from './components/nav-view';
@@ -37,8 +36,11 @@ class App extends Component {
           <Route exact path='/myworks/politiself'>
             <PolitiselfView />
           </Route>
-          <Route exact path='/restAPI'>
-            <RestAPIView slides={SliderRestAPIData}/>
+          <Route exact path='/myworks/devworks'>
+            <DevWork />
+          </Route>
+          <Route exact path='/myworks/devworks/restAPI'>
+            <RestAPIView />
           </Route>
           </Switch>
         <FooterView />

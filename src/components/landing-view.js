@@ -57,7 +57,7 @@ class LandView extends React.Component {
                             <img src={CdIcon} alt="CodingIcon" className='GDIcon' />
                             <h2>Full Stack Web Developer</h2>
                             <p className="paragraphExpertise">With an education in full stack development, skills include; Javascript, Node, Bootstrap, MongoDB, React and React-Native</p>
-                            <Link to='/myworks' className="workButton">See Projects</Link>
+                            <Link to='/myworks/devworks' className="workButton">See Projects</Link>
                         </div>
                     </div>
                     <br />

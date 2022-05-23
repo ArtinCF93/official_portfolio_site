@@ -152,8 +152,7 @@
     box-shadow: 0 0 .5em 0 white;
     font-weight: 800;
     font-size: 1rem;
-    padding: 25px;
-    width: 200px;
+    padding: 20px;
     -webkit-transition-duration: 1s;
     -o-transition-duration: 1s;
     transition-duration: 1s;
@@ -161,12 +160,11 @@
     -o-transition-property: opacity;
     transition-property: opacity;
     display: inline-block;
+    position: absolute;
     margin-top: 80px;
     margin-left:-80px;
     margin-bottom: 50px;
     text-decoration: none;
-    bottom: 0;
-    position: absolute;
     width:180px;
     bottom:0px;
   }

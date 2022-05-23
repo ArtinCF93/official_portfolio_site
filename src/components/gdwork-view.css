@@ -1,71 +1,197 @@
 .grid {
-    display: grid;
-    text-align: center;
-    grid-template-columns: auto auto;
-    grid-template-rows: auto auto;
-    row-gap: 250px;
-    column-gap: 30px;
-    margin: 30px;
-    justify-content: center;
-  }
+  display: grid;
+  text-align: center;
+  grid-template-columns: auto auto;
+  grid-template-rows: auto auto;
+  row-gap: 70px;
+  column-gap: 70px;
+  margin: 30px;
+  justify-content: center;
+}
 
-  .grid_item1 {
-    height: 600px;
-    padding: 20px;
-    margin: 10px;
-    border-radius: 20px;
-    background-color: #42b300;
-    background-image: url(../files/greenbox.jpg);
-    background-size: 700px;
-    position: relative;
-  }
+.grid_item1 {
+  height: 600px;
+  padding: 20px;
+  margin: 10px;
+  border-radius: 20px;
+  background-color: #42b300;
+  background-image: url(../files/greenbox.jpg);
+  background-repeat: no-repeat;
+  background-size: 700px;
+  position: relative;
+  width: 500px;
+}
 
-  .grid_item1:hover {
-    transform: scale(1.05);
-    transition: 1s;
-  }
+.grid_item1:hover {
+  transform: scale(1.05);
+  transition: 1s;
+}
 
-  .grid_item2 {
-    height: 600px;
-    padding: 20px;
-    margin: 10px;
-    border-radius: 20px;
-    background-color: #42b300;
-    background-image: url(../files/fitness19.jpg);
-    background-size: 700px;
-    position: relative;
-  }
+.grid_item2 {
+  height: 600px;
+  padding: 20px;
+  margin: 10px;
+  border-radius: 20px;
+  background-color: #42b300;
+  background-image: url(../files/fitness19.jpg);
+  background-repeat: none;
+  background-size: 700px;
+  position: relative;
+  width: 500px;
+}
 
-  .grid_item2:hover {
-    transform: scale(1.05);
-    transition: 1s;
-  }
+.grid_item2:hover {
+  transform: scale(1.05);
+  transition: 1s;
+}
 
-  .image-container {
+.grid_item3 {
+  height: 600px;
+  padding: 20px;
+  margin: 10px;
+  border-radius: 20px;
+  background-color: #42b300;
+  background-image: url(../files/restAPI.jpg);
+  background-size: 700px;
+  position: relative;
+  width: 500px;
+}
+
+.grid_item3:hover {
+  transform: scale(1.05);
+  transition: 1s;
+}
+
+.grid_item4 {
+  height: 600px;
+  padding: 20px;
+  margin: 10px;
+  border-radius: 20px;
+  background-color: #42b300;
+  background-image: url(../files/myFlix.jpg);
+  background-size: 700px;
+  position: relative;
+  width: 500px;
+}
+
+.grid_item4:hover {
+  transform: scale(1.05);
+  transition: 1s;
+}
+
+.grid_item5 {
+  height: 600px;
+  padding: 20px;
+  margin: 10px;
+  border-radius: 20px;
+  background-color: #42b300;
+  background-image: url(../files/Angular.jpg);
+  background-size: 700px;
+  position: relative;
+  width: 500px;
+}
+
+.grid_item5:hover {
+  transform: scale(1.05);
+  transition: 1s;
+}
+
+.grid_item6 {
+  height: 600px;
+  padding: 20px;
+  margin: 10px;
+  border-radius: 20px;
+  background-color: #42b300;
+  background-image: url(../files/pokedex.jpg);
+  background-size: 700px;
+  position: relative;
+  width: 500px;
+}
+
+.grid_item6:hover {
+  transform: scale(1.05);
+  transition: 1s;
+}
+
+.grid_item6 {
+  height: 600px;
+  padding: 20px;
+  margin: 10px;
+  border-radius: 20px;
+  background-color: #42b300;
+  background-image: url(../files/test.jpg);
+  background-size: 700px;
+  position: relative;
+  width: 500px;
+}
+
+.grid_item6:hover {
+  transform: scale(1.05);
+  transition: 1s;
+}
+
+.grid_item7 {
+  height: 600px;
+  padding: 20px;
+  margin: 10px;
+  border-radius: 20px;
+  background-color: #42b300;
+  background-image: url(../files/native.jpg);
+  background-size: 700px;
+  position: relative;
+  width: 500px;
+}
+
+.grid_item6:hover {
+  transform: scale(1.05);
+  transition: 1s;
+}
+
+.image-container {
+  display: inline-block;
+  text-align: center;
+  grid-template-columns: auto;
+  grid-template-rows: auto;
+  row-gap: 20px;
+  column-gap: 30px;
+  justify-content: center;
+  width: 100%;
+}
+
+.devButtons {
     display: inline-block;
-    text-align: center;
-    grid-template-columns: auto;
-    grid-template-rows: auto;
-    row-gap: 20px;
-    column-gap: 30px;
-    justify-content: center;
-    width: 100%;
-  }
+    position: absolute;
+    margin-top: 80px;
+    margin-left:-80px;
+    margin-bottom: 50px;
+    bottom:0px;
+}
 
-  .imgGB {
-    margin-top: 20px;
-  }
+.imgGB {
+  margin-top: 20px;
+}
 
-  .imgRS {
-    height: 750px;
-    margin: 30px;
-  }
+.imgRS {
+  height: 750px;
+  margin: 30px;
+}
 
-  .imgRS2 {
-    height: 850px;
-    margin: 30px;
-  }
+.imgRS2 {
+  height: 850px;
+  margin: 30px;
+}
 
-  .imgPS {
-    width: 800px;
-  }
+.imgPS {
+  width: 800px;
+}
+
+.gitButton {
+  color: white;
+  text-decoration: none;
+}
+
+.gitButton:hover {
+  color: #7f13d2;
+  border-bottom: 3px solid #7f13d2;
+  transition: all 0.2s ease-out;
+}
