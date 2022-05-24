@@ -11,6 +11,8 @@ import RSFSView from './components/fs19-view';
 import GreenBoxView from './components/greenbox-view';
 import PolitiselfView from './components/politiself-view';
 import RestAPIView from './components/restAPI-view';
+import AboutView from './components/about-view';
+import ContactView from './components/contact-view';
 
 class App extends Component {
 
@@ -41,6 +43,10 @@ class App extends Component {
           </Route>
           <Route exact path='/myworks/devworks/restAPI'>
             <RestAPIView />
+          </Route>
+          <Route exact path='/about'>
+            <AboutView />
+            <ContactView />
           </Route>
           </Switch>
         <FooterView />

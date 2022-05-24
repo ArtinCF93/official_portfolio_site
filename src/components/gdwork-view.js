@@ -13,10 +13,10 @@ class GDWork extends React.Component {
                 <br /><br />
                 <div className="grid">
                     <div className="grid_item1">
-                        <Link to='/myworks/GDworks/greenbox' className="workButton">See Case Study</Link>
+                        <Link to='/myworks/GDworks/greenbox' className="gdButton">See Case Study</Link>
                     </div>
                     <div className="grid_item2">
-                        <Link to='/myworks/GDworks/f19RSwork' className="workButton">See Work</Link>
+                        <Link to='/myworks/GDworks/f19RSwork' className="gdButton">See Work</Link>
                     </div>
                 </div>
             </div>

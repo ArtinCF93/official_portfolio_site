@@ -11,7 +11,7 @@ let PolitiselfView = () => {
                 <hr />
                 <br /><br />
                 <div className='image-container'>
-                <img src={imgPS} alt="PSscreen1" className='imgPS'/>
+                <img src={imgPS} alt="PSscreen1" className='imgRS'/>
         </div>
     </div>
     )

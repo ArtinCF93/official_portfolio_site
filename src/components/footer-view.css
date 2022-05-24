@@ -11,3 +11,9 @@
   .github {
     padding-right: 20px
   }
+
+  @media all and (max-width: 400px) {
+    .page_footer {
+      margin-top: 140px;
+    }
+  }

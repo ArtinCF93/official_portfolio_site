@@ -23,20 +23,20 @@ let RestAPIView = () => {
             <h1>Rest API and Database</h1>
                 <hr />
                 <br /><br />
-                <div className='image-container'>
-                <img src={imgRAPI1} alt="RAPIscreen1" className='imgGB' />
-                <img src={imgRAPI2} alt="RAPIscreen2" className='imgGB' />
-                <img src={imgRAPI3} alt="RAPIscreen3" className='imgGB' />
-                <img src={imgRAPI4} alt="RAPIscreen4" className='imgGB' />
-                <img src={imgRAPI5} alt="RAPIscreen5" className='imgGB' />
-                <img src={imgRAPI6} alt="RAPIscreen6" className='imgGB' />
-                <img src={imgRAPI7} alt="RAPIscreen7" className='imgGB' />
-                <img src={imgRAPI8} alt="RAPIscreen8" className='imgGB' />
-                <img src={imgRAPI9} alt="RAPIscreen9" className='imgGB' />
-                <img src={imgRAPI10} alt="RAPIscreen10" className='imgGB' />
-                <img src={imgRAPI11} alt="RAPIscreen11" className='imgGB' />
-                <img src={imgRAPI12} alt="RAPIscreen12" className='imgGB' />
-                <img src={imgRAPI13} alt="RAPIscreen12" className='imgGB' />
+                <div className='grid2'>
+                <img src={imgRAPI1} alt="RAPIscreen1" className='imgRS' />
+                <img src={imgRAPI2} alt="RAPIscreen2" className='imgRS' />
+                <img src={imgRAPI3} alt="RAPIscreen3" className='imgRS' />
+                <img src={imgRAPI4} alt="RAPIscreen4" className='imgRS' />
+                <img src={imgRAPI5} alt="RAPIscreen5" className='imgRS' />
+                <img src={imgRAPI6} alt="RAPIscreen6" className='imgRS' />
+                <img src={imgRAPI7} alt="RAPIscreen7" className='imgRS' />
+                <img src={imgRAPI8} alt="RAPIscreen8" className='imgRS' />
+                <img src={imgRAPI9} alt="RAPIscreen9" className='imgRS' />
+                <img src={imgRAPI10} alt="RAPIscreen10" className='imgRS' />
+                <img src={imgRAPI11} alt="RAPIscreen11" className='imgRS' />
+                <img src={imgRAPI12} alt="RAPIscreen12" className='imgRS' />
+                <img src={imgRAPI13} alt="RAPIscreen12" className='imgRS' />
         </div>
     </div>
     )

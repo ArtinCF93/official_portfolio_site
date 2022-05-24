@@ -1,0 +1,160 @@
+.portrait {
+    width: 400px;
+}
+
+  .descrContainer {
+    text-align: left;
+    width: 1000px;
+    display: inline-flex;
+    height: 480px;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .descr {
+      padding: 30px;
+  }
+
+  .formContainer {
+      text-align: center;
+      display: block;
+      margin-top: 100px;
+      
+  }
+
+  label {
+      font-weight: 500;
+      font-size: 13px;
+  }
+
+  input {
+      width: 200px;
+      height: 30px;
+  }
+
+  input:hover {
+    border: 2px solid #7f13d2;
+  }
+
+  textarea {
+      width: 300px;
+      height: 100px;
+  }
+
+  textarea:hover {
+    border: 2px solid #7f13d2;
+  }
+
+  .submitButton {
+    color: #7f13d2;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0 0 .5em 0 white;
+    font-weight: 800;
+    font-size: 1rem;
+    padding: 25px;
+    width: 200px;
+    -webkit-transition-duration: 1s;
+    -o-transition-duration: 1s;
+    transition-duration: 1s;
+    -webkit-transition-property: opacity;
+    -o-transition-property: opacity;
+    transition-property: opacity;
+    display: inline-block;
+    margin-top: 40px;
+    text-decoration: none;
+    position: relative;
+    border: none;
+  }
+
+  .submitButton:after {
+    content: '';
+  position: absolute;
+  width: 0;
+  height: 0;
+  bottom: 0;
+  right: 0;
+  border-bottom: 3px solid #9200FF;
+  border-right: 3px solid #9200FF;
+  transition: all 0.4s;
+  opacity: 0;
+  }
+
+  .submitButton:before {
+    content: '';
+  position: absolute;
+  width: 0;
+  height: 0;
+  top: 0;
+  left: 0;
+  border-top: 3px solid #9200FF;
+  border-left: 3px solid #9200FF;
+  transition: all 0.4s;
+  opacity: 0;
+  }
+
+  .submitButton:hover:after, .submitButton:hover:before {
+    width: calc(98%);
+    height: calc(96%);
+    transition: all 0.4s;
+    opacity: 1;
+    cursor: pointer;
+  }
+
+  @media all and (max-width: 1100px) {
+
+    .descrContainer {
+      text-align: center;
+      width: 630px;
+      display: inline-block;
+      height: 480px;
+      justify-content: center;
+      align-items: center;
+    }
+  
+    .descr {
+        padding: 30px;
+    }
+
+    .portrait {
+      width: 300px;
+    }
+    
+  }
+
+  @media all and (max-width: 760px) {
+
+    .descrContainer {
+      text-align: center;
+      width: 450px;
+      display: inline-block;
+      height: 480px;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .descr {
+      font-size: 12px;
+  }
+  
+  }
+
+  @media all and (max-width: 470px) {
+
+    .descrContainer {
+      text-align: center;
+      width: 350px;
+      display: inline-block;
+      height: 480px;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .descr {
+      font-size: 12px;
+  }
+
+  .portrait {
+    width: 225px;
+  }
+  
+  }

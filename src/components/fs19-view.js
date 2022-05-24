@@ -14,10 +14,10 @@ let RSFSView = () => {
             <h1>Right Stuff and Fitness 19</h1>
                 <hr />
                 <br /><br />
-                <div className='image-container'>
+                <div className='grid2'>
                 <img src={imgRS1} alt="RSscreen1" className='imgRS' />
                 <img src={imgRS2} alt="RSscreen2" className='imgRS' />
-                <img src={imgRS3} alt="RSscreen3" className='imgRS2' />
+                <img src={imgRS3} alt="RSscreen3" className='imgRS' />
                 <img src={imgRS4} alt="RSscreen4" className='imgRS' />
         </div>
     </div>

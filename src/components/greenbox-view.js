@@ -21,6 +21,7 @@ let GreenBoxView = () => {
             <h1>GreenBox</h1>
                 <hr />
                 <br /><br />
+                <div className='grid2'>
                 <img src={imgGB1} alt="GBScreen1" className='imgGB'/>
                 <img src={imgGB2} alt="GBScreen2" className='imgGB'/>
                 <img src={imgGB3} alt="GBScreen3" className='imgGB'/>
@@ -33,6 +34,7 @@ let GreenBoxView = () => {
                 <img src={imgGB10} alt="GBScreen10" className='imgGB'/>
                 <img src={imgGB11} alt="GBScreen11" className='imgGB'/>
                 <img src={imgGB12} alt="GBScreen12" className='imgGB'/>
+        </div>
         </div>
     )
 }

@@ -22,12 +22,6 @@
     width: 100%;
   }
   
-  .container {
-    text-align: center;
-    margin-top: 170px;
-    justify-content: center;
-  }
-  
   .center_button {
     display: flex;
     width: 100%;
@@ -207,7 +201,60 @@
   .itemExpertise {
     height: 300px;
   }
+
+  @media all and (max-width: 1370px) {
+    .GDIcon {
+      width:125px;
+    }
+
+    h2 {
+      font-size: 20px;
+    }
+
+    .itemExpertise {
+      height: 200px;
+    }
+
+    .paragraphExpertise {
+      font-size: 13px;
+    }
+  }
   
+
+  @media all and (max-width: 1130px) {
+    .GDIcon {
+      width:125px;
+    }
+
+    h2 {
+      font-size: 20px;
+    }
+
+    .itemExpertise {
+      max-width: 500px;
+    }
+
+    .gridExpertise {
+      display: grid;
+      text-align: center;
+      grid-template-columns: auto;
+      grid-template-rows: auto auto;
+      row-gap: 280px;
+      column-gap: 30px;
+      margin: 30px;
+      justify-content: center;
+      position: relative;
+    }
+
+    .workButton {
+      position: relative;
+      margin-top: 20px;
+    margin-left: 0px;
+    }    
+
+  }
+
+
   @media all and (max-width: 750px) {
     .column {
       width: 100%;
@@ -216,6 +263,7 @@
     h1 {
       font-size: 22px;
     }
+    
   
     .button {
       font-size: 10px;
@@ -223,15 +271,20 @@
       margin-top: 10px;
       position: relative;
     }
+    
+    .container {
+      text-align: center;
+      margin-top: 80px;
+      justify-content: center;
+    }
 
     p {
       margin: 10px;
     }
 
-    .GDIcon {
-      width:75px;
+    .button {
+      width: 150px;
     }
-  
   
   }
   
@@ -248,5 +301,17 @@
   
     .column {
       padding: 5px;
+    }
+
+    .gridExpertise {
+      display: grid;
+      text-align: center;
+      grid-template-columns: auto;
+      grid-template-rows: auto;
+      row-gap: 350px;
+      column-gap: 30px;
+      margin: 30px;
+      justify-content: center;
+      position: relative;
     }
   }

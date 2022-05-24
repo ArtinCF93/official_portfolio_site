@@ -1,7 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import backImg from '../files/website_background.jpg'
-import prtImg from '../files/Me_3.jpg'
 import GDIcon from '../files/GDIcon.png';
 import UXIcon from '../files/UXIcon.png';
 import CdIcon from '../files/CdIcon.png'
@@ -61,17 +60,6 @@ class LandView extends React.Component {
                         </div>
                     </div>
                     <br />
-                    {/* <div className="container">
-            <h1 id='contact'>Contact Me</h1>
-            <hr />
-            <p>Hard work is a Journey, but worth the Reward. Lets Talk!</p>
-            <br /><br />
-            <img src={prtImg} alt="Portrait" className="profile_portrait" />
-            <br /><br /><br />
-            <h3>For Inquiries</h3>
-            Email me at<br />
-            <a href="mailto:Toojool@gmail.com">Toojool@gmail.com</a>
-        </div> */}
                 </div>
             </div>
         );

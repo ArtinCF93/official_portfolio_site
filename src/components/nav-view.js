@@ -30,7 +30,7 @@ function NavBar() {
                             <a href="/#expertise" className="nav-links">My Work</a>
                         </li>
                         <li className='nav-item'>
-                            <Link to='/myworks' className="nav-links">About</Link>
+                            <Link to='/about' className="nav-links">About</Link>
                         </li>
                     </ul>
                 </div>
