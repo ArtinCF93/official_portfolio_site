@@ -12,6 +12,19 @@
     padding-right: 20px
   }
 
+  .gitButon {
+    color: #7f13d2;
+    margin: 30px 0px 10px 0px;
+    text-decoration: none;
+  }
+
+  .gitButon:hover {
+    text-decoration: none;
+    border-bottom: 3px solid #7f13d2;
+    opacity: .6;
+    transition: all 0.2s ease-out;
+  }
+
   @media all and (max-width: 400px) {
     .page_footer {
       margin-top: 140px;

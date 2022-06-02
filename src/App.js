@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import {BrowserRouter as Router, Switch, Route} from 'react-router-dom';
+import { BrowserRouter as Router, Routes, Route, Fragment } from 'react-router-dom';
 import './App.css';
 
 import NavBar from './components/nav-view';
@@ -20,38 +20,23 @@ class App extends Component {
 
     return (
       <div>
-      <Router>
-        <NavBar />
-        <Switch>
-          <Route exact path='/'>
-            <LandView />
-          </Route>
-          <Route exact path='/myworks/GDworks'>
-            <GDWork />
-          </Route>
-          <Route exact path='/myworks/GDworks/f19RSwork'>
-            <RSFSView />
-          </Route>
-          <Route exact path='/myworks/GDworks/greenbox'>
-            <GreenBoxView />
-          </Route>
-          <Route exact path='/myworks/politiself'>
-            <PolitiselfView />
-          </Route>
-          <Route exact path='/myworks/devworks'>
-            <DevWork />
-          </Route>
-          <Route exact path='/myworks/devworks/restAPI'>
-            <RestAPIView />
-          </Route>
-          <Route exact path='/about'>
-            <AboutView />
-            <ContactView />
-          </Route>
-          </Switch>
+        <Router>
+          <NavBar />
+          <Routes>
+            <Route path="/" element={<LandView />} />
+            <Route path="/myworks/GDworks" element={<GDWork />} />
+            <Route path="/myworks/GDworks/f19RSwork" element={<RSFSView />} />
+            <Route path="/myworks/GDworks/greenbox" element={<GreenBoxView />} />
+            <Route path="/myworks/politiself" element={<PolitiselfView />} />
+            <Route path="/myworks/devworks" element={<DevWork />} />
+            <Route path="/myworks/devworks/restAPI" element={<RestAPIView />} />
+            <Route path="/about" render={() => <><AboutView /> <ContactView /></> }
+            />
+        </Routes>
         <FooterView />
       </Router>
-      </div>
+    {/* test */}
+      </div >
     );
   }
 }

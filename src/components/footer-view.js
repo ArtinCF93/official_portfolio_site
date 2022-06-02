@@ -16,6 +16,7 @@ class FooterView extends React.Component {
                 <a href='https://github.com/ArtinCF93' target='blank'><img src={github} alt="Github" className='github'/></a>
                 <a href='https://www.linkedin.com/in/artin-azimi-54bb65132/' target='blank'><img src={linkedin} alt="Linkedin" /></a>
             </div>
+            <a href="https://github.com/ArtinCF93/official_portfolio_site"  className='gitButon' target='_blank'>Check out this Site's code</a>
     </footer>
     </div>
     );
