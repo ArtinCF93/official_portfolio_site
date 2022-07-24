@@ -1,5 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import Pdf from '../files/197 Proj_3 Brand Campaign.pdf';
 import './gdwork-view.css'
 
 class GDWork extends React.Component {
@@ -13,10 +14,10 @@ class GDWork extends React.Component {
                 <br /><br />
                 <div className="grid">
                     <div className="grid_item1">
-                        <Link to='/myworks/GDworks/greenbox' className="gdButton">See Case Study</Link>
+                    <a href = {Pdf} target = "_blank" className="gdButton">See Case Study</a>
                     </div>
                     <div className="grid_item2">
-                        <Link to='/myworks/GDworks/f19RSwork' className="gdButton">See Work</Link>
+                        <Link to='/myworks/f19RSwork' className="gdButton">See Work</Link>
                     </div>
                 </div>
             </div>

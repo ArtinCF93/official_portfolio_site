@@ -129,13 +129,44 @@
   width: 500px;
 }
 
-.grid_item6:hover {
+.grid_item7:hover {
+  transform: scale(1.05);
+  transition: 1s;
+}
+
+.grid_item8 {
+  height: 600px;
+  padding: 20px;
+  margin: 10px;
+  border-radius: 20px;
+  background-image: url(../files/FBImg.jpg);
+  background-size: 700px;
+  position: relative;
+  width: 500px;
+}
+
+.grid_item8:hover {
+  transform: scale(1.05);
+  transition: 1s;
+}
+
+.grid_item9 {
+  height: 600px;
+  padding: 20px;
+  margin: 10px;
+  border-radius: 20px;
+  background-image: url(../files/politiselfCS.jpg);
+  background-size: 700px;
+  position: relative;
+  width: 500px;
+}
+
+.grid_item9:hover {
   transform: scale(1.05);
   transition: 1s;
 }
 
 .image-container {
-  display: inline-block;
   text-align: center;
   grid-template-columns: auto;
   grid-template-rows: auto;

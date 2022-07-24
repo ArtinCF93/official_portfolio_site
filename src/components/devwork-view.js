@@ -1,5 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import Pdf from '../files/CF_Casestudy_RestAPI.pdf'
 import './gdwork-view.css'
 
 class DevWork extends React.Component {
@@ -14,7 +15,7 @@ class DevWork extends React.Component {
                 <div className="grid">
                     <div className="grid_item3">
                         <div className='devButtons'>
-                        <Link to='/myworks/devworks/restAPI' className="workButton">See CaseStudy</Link>
+                        <a href = {Pdf} target = "_blank" className="gdButton">See Case Study</a>
                         <br /><br />
                         <a href="https://github.com/ArtinCF93/movie_flix_api" className="gitButton"  target='_blank'>
                             View code on GitHub

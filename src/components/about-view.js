@@ -1,6 +1,6 @@
 import React from 'react';
 import ImgMe from '../files/IMG_Me.jpg';
-
+import ContactView from './contact-view';
 import './about.css'
 
 let AboutView = () => {
@@ -31,6 +31,7 @@ let AboutView = () => {
                 and learn in new and unexpected situations.
             </p>
             </div>
+            <ContactView />
         </div>
     )
 }
