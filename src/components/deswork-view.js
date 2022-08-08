@@ -14,10 +14,10 @@ class DesWork extends React.Component {
                 <br /><br />
                 <div className="grid">
                     <div className="grid_item8">
-                    <a href = {Pdf} target = "_blank" className="gdButton">See Case Study</a>
+                    <a href = {Pdf} target = "_blank" className="workButton">See Case Study</a>
                     </div>
                     <div className="grid_item9">
-                    <a href = {Pdf2} target = "_blank" className="gdButton">See Case Study</a>
+                    <a href = {Pdf2} target = "_blank" className="workButton">See Case Study</a>
                     </div>
                 </div>
             </div>

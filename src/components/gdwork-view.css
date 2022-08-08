@@ -176,15 +176,6 @@
   width: 100%;
 }
 
-.devButtons {
-    display: inline-block;
-    position: absolute;
-    margin-top: 80px;
-    margin-left:-80px;
-    margin-bottom: 50px;
-    bottom:0px;
-}
-
 .imgGB {
   margin-top: 20px;
 }
@@ -199,75 +190,6 @@
   justify-content: center;
 }
 
-
-.gitButton {
-  color: white;
-  text-decoration: none;
-}
-
-.gitButton:hover {
-  color: #7f13d2;
-  border-bottom: 3px solid #7f13d2;
-  transition: all 0.2s ease-out;
-}
-
-.gdButton {
-  color: #7f13d2;
-  background-color: rgb(255, 255, 255);
-  box-shadow: 0 0 .5em 0 white;
-  font-weight: 800;
-  font-size: 1rem;
-  padding: 20px;
-  -webkit-transition-duration: 1s;
-  -o-transition-duration: 1s;
-  transition-duration: 1s;
-  -webkit-transition-property: opacity;
-  -o-transition-property: opacity;
-  transition-property: opacity;
-  display: inline-block;
-  position: absolute;
-  margin-top: 80px;
-  margin-left:-80px;
-  margin-bottom: 50px;
-  text-decoration: none;
-  width:180px;
-  bottom:0px;
-}
- 
-
-.gdButton:after {
-  content: '';
-position: absolute;
-width: 0;
-height: 0;
-bottom: 0;
-right: 0;
-border-bottom: 3px solid #9200FF;
-border-right: 3px solid #9200FF;
-transition: all 0.4s;
-opacity: 0;
-}
-
-.gdButton:before {
-  content: '';
-position: absolute;
-width: 0;
-height: 0;
-top: 0;
-left: 0;
-border-top: 3px solid #9200FF;
-border-left: 3px solid #9200FF;
-transition: all 0.4s;
-opacity: 0;
-}
-
-.gdButton:hover:after, .gdButton:hover:before {
-  width: calc(98%);
-  height: calc(95%);
-  transition: all 0.4s;
-  opacity: 1;
-  cursor: pointer;
-}
 
 @media all and (max-width: 1200px) {
 

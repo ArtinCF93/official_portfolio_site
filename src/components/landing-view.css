@@ -96,8 +96,8 @@
   }
 
   .button:hover:after, .button:hover:before {
-    width: calc(98%);
-    height: calc(96%);
+    width: calc(97.7%);
+    height: calc(95.5%);
     transition: all 0.4s;
     opacity: 1;
     cursor: pointer;
@@ -148,60 +148,139 @@
     font-weight: 800;
     font-size: 1rem;
     padding: 20px;
+    position: absolute;
+    margin: 0 auto;
+    text-decoration: none;
+    width:180px;
+    bottom:0px;
+    left: 0;
+    top: 85%;
+    right: 0;
+    height: fit-content;
+  }
+   
+  .workButton:hover{
+    color: white;
+    background-color: #7f13d2;
+    box-shadow: 0 0 .5em 0 #7f13d2;
+    transition: .5s;
+  }
+
+ 
+
+  .devButtons {
+      display: flex;
+      flex-direction: column;
+      position: absolute;
+      top: 70%;
+      left: 0;
+      right: 0;
+      margin: auto;
+}
+
+
+.workButton2 {
+  color: #7f13d2;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0 0 .5em 0 white;
+    font-weight: 800;
+    font-size: 1rem;
+    padding: 20px;
     -webkit-transition-duration: 1s;
     -o-transition-duration: 1s;
     transition-duration: 1s;
     -webkit-transition-property: opacity;
     -o-transition-property: opacity;
     transition-property: opacity;
-    display: inline-block;
-    position: absolute;
-    margin-top: 80px;
-    margin-left:-80px;
-    margin-bottom: 50px;
+    margin: 0 auto;
     text-decoration: none;
     width:180px;
     bottom:0px;
-  }
-   
+    left: 0;
+    top: 85%;
+    right: 0;
+    height: fit-content;
+    margin-bottom: 1rem;
+}
 
-  .workButton:after {
-    content: '';
-  position: absolute;
-  width: 0;
-  height: 0;
-  bottom: 0;
-  right: 0;
-  border-bottom: 3px solid #9200FF;
-  border-right: 3px solid #9200FF;
-  transition: all 0.4s;
-  opacity: 0;
-  }
+.workButton2:hover{
+  color: white;
+  background-color: #7f13d2;
+  box-shadow: 0 0 .5em 0 #7f13d2;
+  transition: .5s;
+}
 
-  .workButton:before {
-    content: '';
-  position: absolute;
-  width: 0;
-  height: 0;
-  top: 0;
-  left: 0;
-  border-top: 3px solid #9200FF;
-  border-left: 3px solid #9200FF;
-  transition: all 0.4s;
-  opacity: 0;
-  }
+.workButton3 {
+  color: rgb(255, 255, 255);
+  background-color: #7f13d2;
+  box-shadow: 0 0 .5em 0 #7f13d2;
+  font-weight: 500;
+  font-size: 12px;
+  padding: 10px;
+    margin: 0 auto;
+    text-decoration: none;
+    width:100px;
+    bottom:0px;
+    left: 0;
+    top: 85%;
+    right: 0;
+    height: fit-content;
+}
 
-  .workButton:hover:after, .workButton:hover:before {
-    width: calc(98%);
-    height: calc(95%);
-    transition: all 0.4s;
-    opacity: 1;
-    cursor: pointer;
-  }
+.workButton3:hover{
+  color: white;
+  border: 3px solid white;
+  transition: all 0.2s ease-out;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.workButton4 {
+  color: rgb(255, 255, 255);
+  background-color: #7f13d2;
+  box-shadow: 0 0 .5em 0 #7f13d2;
+  font-weight: 500;
+  font-size: 14px;
+  padding: 10px;
+    margin: 0 auto;
+    text-decoration: none;
+    width:180px;
+    bottom:0px;
+    left: 0;
+    top: 85%;
+    right: 0;
+    height: fit-content;
+}
+
+.workButton4:hover{
+  color: white;
+  border: 3px solid white;
+  transition: all 0.2s ease-out;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+.gitButton {
+  color: white;
+  text-decoration: none;
+  margin-top: 1rem;
+  font-size: 12px;
+}
+
+.gitButton:hover {
+  color: #7f13d2;
+  border-bottom: 3px solid #7f13d2;
+  transition: all 0.2s ease-out;
+  width: fit-content;
+  margin-left: auto;
+  margin-right: auto;
+}
 
   .itemExpertise {
     height: 300px;
   }
+
 
   @media all and (max-width: 1370px) {
     .GDIcon {
@@ -246,12 +325,12 @@
       justify-content: center;
       position: relative;
     }
-
+/* 
     .workButton {
       position: relative;
       margin-top: 20px;
     margin-left: 0px;
-    }    
+    }     */
 
   }
 

@@ -14,10 +14,10 @@ class GDWork extends React.Component {
                 <br /><br />
                 <div className="grid">
                     <div className="grid_item1">
-                    <a href = {Pdf} target = "_blank" className="gdButton">See Case Study</a>
+                    <a href = {Pdf} target = "_blank" className="workButton">See Case Study</a>
                     </div>
                     <div className="grid_item2">
-                        <Link to='/myworks/f19RSwork' className="gdButton">See Work</Link>
+                        <Link to='/myworks/f19RSwork' className="workButton">See Work</Link>
                     </div>
                 </div>
             </div>
